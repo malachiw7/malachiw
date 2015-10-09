@@ -549,8 +549,8 @@ main .site-header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 116px;
-	height: 80px;
+	width: 156px;
+	height: 87px;
 	background: url("../images/logo/logoMW.png") no-repeat;
 	background-size: contain;
 }
@@ -894,20 +894,20 @@ main .site-header .logo a {
 	width: 28px;
 	height: 28px;
 	line-height: 28px;
-	background-image: url("../images/users.png");
+	background-image: url("../images/users@2x.png");
 	left: 24px;
 	background-size: contain;
 }
-
+/*
 .modal-toggles .location a::before {
 	width: 26px;
 	height: 26px;
 	line-height: 28px;
-	background-image: url("../images/marker.png");
+	background-image: url("../images/marker@2x.png");
 	left: 30px;
 	background-size: contain;
 }
-
+*/
 @media only screen and (max-width:600px) {
 	.modal-toggles {
 		padding: 0 25px;
