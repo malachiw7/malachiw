@@ -1,9 +1,5 @@
 /* =================================================================== */
 /*
-/*  Advent v1.0 Main Stylesheet
-/*  url: styleshout.com
-/*  08-28-2015
-/*
 /*	 TOC:
 /*  01. =webfonts and iconfonts
 /*  02. =document setup
@@ -33,7 +29,7 @@ body {
 }
 
 html {
-	background: #161415 url(../images/bgnew2_1.jpg) no-repeat center center fixed;
+	background: #161415 url(../images/bgnew6_1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -536,7 +532,7 @@ main hr {
 main .site-header .logo {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 0 38px 0;
+	margin: 0 10px 20px 35px;
 	padding: 0;
 }
 
@@ -549,9 +545,9 @@ main .site-header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 156px;
-	height: 87px;
-	background: url("../images/logo/logoMW.png") no-repeat;
+	width: 222px;
+	height: 104px;
+	background: url("../images/logo/logoglowMW.png") no-repeat;
 	background-size: contain;
 }
 
@@ -867,14 +863,14 @@ main .site-header .logo a {
 .modal-toggles li {
 	display: inline-block;
 }
-
+/*
 .modal-toggles li:first-child {
 	border-right: 1px solid #3b3b3b;
 	color: white;
 }
-
+*/
 .modal-toggles li a {
-	padding: 0 40px 0 65px;
+	padding: 0 40px 0 60px;
 	position: relative;
 	display: block;
 	line-height: 30px;
@@ -891,11 +887,11 @@ main .site-header .logo a {
 }
 
 .modal-toggles .about-us a::before {
-	width: 28px;
-	height: 28px;
-	line-height: 28px;
-	background-image: url("../images/users.png");
-	left: 24px;
+	width: 22px;
+	height: 22px;
+	line-height: 25px;
+	background-image: url("../images/wdload.png"); /*download logo using custom 129px setting*/
+	left: 29px;
 	background-size: contain;
 }
 /*
@@ -903,11 +899,12 @@ main .site-header .logo a {
 	width: 26px;
 	height: 26px;
 	line-height: 28px;
-	background-image: url("../images/marker@2x.png");
+	background-image: url("../images/Untitledtry.png");
 	left: 30px;
 	background-size: contain;
 }
 */
+
 @media only screen and (max-width:600px) {
 	.modal-toggles {
 		padding: 0 25px;
@@ -1359,7 +1356,7 @@ main .site-header .logo a {
 	width: 36px;
 	height: 36px;
 	line-height: 36px;
-	background: url("../images/marker@2x.png") no-repeat center center;
+	background: url("../images/wdl@2x.png") no-repeat center center;
 	background-size: contain;
 	margin: 5px;
 	margin-top: -18px;
@@ -1436,7 +1433,7 @@ footer {
 	clear: both;
 	font: 12px/24px "montserrat-regular", sans-serif;
 	background: #000;
-	padding: 18px 30px;
+	padding: 18px 10px;
 	color: #303030;
 	width: 100%;
 	position: fixed;
