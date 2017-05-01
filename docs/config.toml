@@ -1,0 +1,22 @@
+baseURL = "http://malachiw.com"
+languageCode = "en-us"
+title = "Malachi Williams"
+theme = "kube"
+description = "Building the future by solving as many problems as possible."
+Paginate = 4
+publishDir = "docs"
+[Params]
+  RSSLink = "/index.xml"
+  author = "" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "malachiw707@gmail.com"
+
+[[menu.main]]
+  name = "Work"
+  weight = -100
+  url = "/work/"
+[[menu.main]]
+  name = "About"
+  weight = -100
+  url = "/about/"
